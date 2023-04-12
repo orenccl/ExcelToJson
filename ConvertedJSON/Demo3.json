@@ -1,0 +1,152 @@
+[
+  {
+    "id": 2120011,
+    "nameKey": "item_2120011",
+    "contentKey": "content_2120011",
+    "itemPrice": 150,
+    "cooldown": 2.5,
+    "effectIdList": [
+      200,
+      300,
+      610
+    ],
+    "range": 125,
+    "interactionValue": -430,
+    "isPercentage": false
+  },
+  {
+    "id": 2120012,
+    "nameKey": "item_2120012",
+    "contentKey": "content_2120012",
+    "itemPrice": 255,
+    "cooldown": 2.5,
+    "effectIdList": [
+      200,
+      300,
+      611
+    ],
+    "range": 125,
+    "interactionValue": -480,
+    "isPercentage": false
+  },
+  {
+    "id": 2120013,
+    "nameKey": "item_2120013",
+    "contentKey": "content_2120013",
+    "itemPrice": 85,
+    "cooldown": 2.5,
+    "effectIdList": [
+      200,
+      300,
+      612
+    ],
+    "range": 125,
+    "interactionValue": -530,
+    "isPercentage": true
+  },
+  {
+    "id": 2120014,
+    "nameKey": "item_2120014",
+    "contentKey": "content_2120014",
+    "itemPrice": 60,
+    "cooldown": 2.5,
+    "effectIdList": [
+      200,
+      300,
+      613
+    ],
+    "range": 125,
+    "interactionValue": -580,
+    "isPercentage": false
+  },
+  {
+    "id": 2120015,
+    "nameKey": "item_2120015",
+    "contentKey": "content_2120015",
+    "itemPrice": 55,
+    "cooldown": 2.5,
+    "effectIdList": [
+      200,
+      300,
+      614
+    ],
+    "range": 125,
+    "interactionValue": -630,
+    "isPercentage": true
+  },
+  {
+    "id": 2120016,
+    "nameKey": "item_2120016",
+    "contentKey": "content_2120016",
+    "itemPrice": 95,
+    "cooldown": 2.5,
+    "effectIdList": [
+      200,
+      300,
+      615
+    ],
+    "range": 125,
+    "interactionValue": -680,
+    "isPercentage": false
+  },
+  {
+    "id": 2120017,
+    "nameKey": "item_2120017",
+    "contentKey": "content_2120017",
+    "itemPrice": 130,
+    "cooldown": 2.5,
+    "effectIdList": [
+      200,
+      300,
+      616
+    ],
+    "range": 125,
+    "interactionValue": -730,
+    "isPercentage": true
+  },
+  {
+    "id": 2120018,
+    "nameKey": "item_2120018",
+    "contentKey": "content_2120018",
+    "itemPrice": 20,
+    "cooldown": 2.5,
+    "effectIdList": [
+      200,
+      300,
+      617
+    ],
+    "range": 125,
+    "interactionValue": -780,
+    "isPercentage": false
+  },
+  {
+    "id": 2120019,
+    "nameKey": "item_2120019",
+    "contentKey": "content_2120019",
+    "itemPrice": 45,
+    "cooldown": 2.5,
+    "effectIdList": [
+      200,
+      300,
+      618
+    ],
+    "range": 125,
+    "interactionValue": -830,
+    "isPercentage": false
+  },
+  {
+    "id": 2120020,
+    "nameKey": "item_2120020",
+    "contentKey": "content_2120020",
+    "itemPrice": 75,
+    "cooldown": 2.5,
+    "effectIdList": [
+      200,
+      300,
+      619
+    ],
+    "range": 125,
+    "interactionValue": -880,
+    "isPercentage": false
+  }
+]

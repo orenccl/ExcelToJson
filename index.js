@@ -1,6 +1,8 @@
 const xlsx = require('node-xlsx');
 const fs = require('fs');
-const excelFiles = require('./config');
+const excelDirectory = `${__dirname}/ExcelToBeConverted/`;
+const outputDirectory = `${__dirname}/ConvertedJSON/`;
+const excelFiles = fs.readdirSync(excelDirectory);
 
 // 對Config檔中每個Excel做處理
 excelFiles.forEach((filename) => {
@@ -14,7 +16,7 @@ excelFiles.forEach((filename) => {
 // 處理excel檔案
 function processExcelFile(filename) {
   // 讀取excel
-  const excelSheets = xlsx.parse(`${__dirname}/${filename}`);
+  const excelSheets = xlsx.parse(`${excelDirectory}` + `${filename}`);
   // 對每個sheet做處理
   excelSheets.forEach((sheet) => {
     console.log(`Read sheet ${sheet.name}`);
@@ -42,7 +44,7 @@ function processExcelFile(filename) {
     }
 
     //輸出JSON
-    const jsonFilename = `${__dirname}/${sheet.name}.json`;
+    const jsonFilename = `${outputDirectory}` + `${sheet.name}.json`;
     fs.writeFileSync(jsonFilename, JSON.stringify(jsonOutput, null, 2));
 
     console.log(`Write sheet to json ${jsonFilename}`);
